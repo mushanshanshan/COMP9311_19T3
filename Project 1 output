@@ -1,0 +1,396 @@
+Project 1 : output
+
+The output of example database:
+
+If you think there is something wrong, welcome to discuss.
+如果你认为其中有错误，欢迎讨论.
+
+Question 1:
+   unswid   |  longname
+------------+-------------
+ K-E15-1047 | QUAD-1047
+ K-E15-1048 | QUAD-1048
+ K-F20-LG23 | JG-LG23
+ K-E15-G040 | QUAD-G040
+ K-G14-236  | WEBSTER-236
+ K-F20-LG21 | JG-LG21
+ K-C20-LG2  | MB-LG2
+ K-K15-150  | OMB-150
+ K-E15-G042 | QUAD-G042
+ K-E15-G022 | QUAD-G022
+ K-J17-202  | ME-202
+ K-E15-G047 | QUAD-G047
+ K-H20-102  | CE-102
+ K-E15-G044 | QUAD-G044
+ K-J17-503  | ME-503
+ K-E15-G048 | QUAD-G048
+ K-J17-301  | ME-301
+ K-K15-231  | OMB-231
+ K-E15-1042 | QUAD-1042
+ K-E15-G035 | QUAD-G035
+ K-E15-G052 | QUAD-G052
+ K-J17-304  | ME-304
+ K-E15-G041 | QUAD-G041
+ K-E15-G054 | QUAD-G054
+ K-E15-1049 | QUAD-1049
+ K-E15-G045 | QUAD-G045
+ K-E15-G055 | QUAD-G055
+ K-E8-219   | E8-219
+ K-K15-232  | OMB-232
+ K-E15-G026 | QUAD-G026
+ K-F20-139  | JG-139
+ K-K15-149A | OMB-149A
+ K-E15-G046 | QUAD-G046
+ K-E15-G027 | QUAD-G027
+ K-K15-145A | OMB-145A
+ K-C20-G7   | MB-G7
+ K-J17-203  | ME-203
+ K-E15-1045 | QUAD-1045
+ K-E15-G053 | QUAD-G053
+ K-D7-101   | WC-101
+ K-H20-713  | CE-713
+ K-J17-502  | ME-502
+ K-H20-G8   | CE-G8
+ K-E15-G032 | QUAD-G032
+ K-C20-LG30 | MB-LG30
+ K-E15-G031 | QUAD-G031
+ K-E15-G034 | QUAD-G034
+ K-J17-303  | ME-303
+ K-B9-160   | B9 160
+ K-K15-228  | OMB-228
+ K-H20-G1   | CE-G1
+ K-C20-G6   | MB-G6
+ K-H20-G6   | CE-G6
+ K-G17-225  | EE-225
+ K-J17-403  | ME-403
+ K-E15-G025 | QUAD-G025
+ K-H20-101  | CE-101
+ K-J17-402  | ME-402
+ K-K15-229  | OMB-229
+ K-E15-1046 | QUAD-1046
+(60 rows)
+
+
+
+Question 2:
+ unswid  |         name
+---------+----------------------
+ 9026074 | David Morgan
+ 3217878 | Devorah Wainer
+ 3178237 | Sehne Avsar
+ 3089715 | Louis Wang
+ 3344027 | Jennifer Foster
+ 3115148 | Andrew Jackson
+ 9643409 | Suk-Joong Kim
+ 8545418 | Judith Watson
+ 9466637 | Betty Wong
+ 3382677 | Chen Qiu
+ 6882728 | Diane Enahoro
+ 3281877 | Vasile Caprar
+ 8085382 | Louise Zieme
+ 7676135 | Trevor Stegman
+ 3128697 | Zahid Riaz
+ 3389919 | Denise Bunting
+ 3247239 | Vincent Wong
+ 9130234 | Barbara Hendrischke
+ 3266526 | Simon Restubog
+ 3227548 | Elaine Franco
+ 8831950 | Diane Fieldes
+ 3210320 | Suzanne Chan-Serafin
+ 9155962 | Noor-E-Alam Ahmed
+ 8837004 | Tien Nguyen
+ 3021175 | Yue Wang
+ 3149611 | Edward Harbor
+ 3138847 | Benoit Julien
+ 9995228 | Peter Nichols
+ 3150458 | Quan Gan
+ 9854333 | Denzil Fiebig
+ 6987539 | Ian Wilkinson
+ 3228131 | Ben Greiner
+ 9985688 | Pradeep Ray
+ 8553813 | Donna Wilcox
+ 9857057 | Raymond Durham
+ 9213794 | Tracy Wilcox
+ 3218828 | Hugh Bainbridge
+ 3129186 | Abu Shonchoy
+ 8421419 | Chung-Sok Suh
+ 3307694 | Ricardo Flores
+ 8997961 | Kenneth Ashwell
+(41 rows)
+
+
+
+Question 3:
+ unswid  |      name
+---------+----------------
+ 3027500 | Aran Tidswell
+ 3107091 | Grace Dobes
+ 3290708 | Pamela Brassel
+(3 rows)
+
+
+
+Question 4:
+ num_student
+-------------
+        4941
+(1 row)
+
+
+
+Question 5:
+   code   |              name              | semester
+----------+--------------------------------+-----------
+ GENT0420 | Along the Silk Road            | Summ 2009
+ PHSL2502 | Human Physiology B             | Sem2 2010
+ ARTS1780 | Concepts of Europe             | Sem1 2009
+ MATH2011 | Several Variable Calculus      | Sem1 2010
+ GENM0703 | Concept of Phys Fitness&Health | Summ 2006
+ MECH1300 | Engineering Mechanics 1        | Sem2 2003
+ SOLA9003 | High Efficiency Si Solar Cells | Sem1 2011
+ ACCT1501 | Accounting & Financial Mgt 1A  | Sem2 2005
+ BIOS1101 | Evolutionary & Functional Biol | Sem2 2003
+ INTA2171 | Technology for Interior Arch 1 | ASemM2007
+ PLAN3041 | Planning Law & Administration  | Sem1 2012
+ PHYS1231 | Higher Physics 1B              | Summ 2010
+ FINS1612 | Capital Markets & Institution  | Summ 2011
+ BIOS2021 | Genetics                       | ASemA2007
+ IDES2161 | Industrial Design Studio 2A    | Sem1 2008
+ IDES2171 | Computer Application Ind Desgn | Sem2 2008
+ GENT0420 | Along the Silk Road            | Summ 2008
+ ATAX0403 | Taxation of Corporations       | Sem1 2004
+ COMP9511 | Human Computer Interaction     | Sem2 2008
+ ZHSS1401 | Politics 1A                    | Sem1 2005
+ ECON1101 | Microeconomics 1               | Sem2 2004
+ ARCH1172 | Architectural Technologies 2   | Sem2 2005
+ ARTS2458 | Along the Silk Road            | Summ 2013
+ GENS1004 | Science and the Cinema         | Summ 2007
+ MECH2102 | Machine Design B               | Sem2 2006
+ LAWS1052 | Foundations of Law             | Sem1 2003
+ HESC3532 | Movement Rehabilitation        | Sem2 2012
+ GSOE9840 | Maintenance Engineering        | Sem2 2011
+ FOOD2330 | Quality Assurance and Control  | Sem2 2009
+ DIPP1111 | Intro to Leadership and PP     | Summ 2013
+ ACCT5908 | Auditing and Assurance Ser.    | Summ 2012
+ PHYS1131 | Higher Physics 1A              | Sem1 2006
+(32 rows)
+
+
+Question 6:
+ num
+-----
+ 223
+(1 row)
+
+
+
+Question 7:
+proj1=# SELECT * FROM Q7;
+ year | term | average_mark
+------+------+--------------
+ 2006 | S1   |        71.29
+ 2004 | S2   |        67.62
+ 2003 | S1   |        78.22
+ 2008 | S2   |        68.73
+ 2003 | S2   |        72.88
+ 2012 | S1   |        63.74
+ 2009 | S2   |        64.13
+ 2011 | S1   |        68.10
+ 2007 | S1   |        70.08
+ 2010 | S1   |        67.47
+ 2005 | S2   |        69.90
+ 2011 | S2   |        70.85
+ 2007 | S2   |        76.05
+ 2010 | S2   |        76.23
+ 2005 | S1   |        81.83
+ 2008 | S1   |        67.94
+ 2012 | S2   |        74.56
+ 2009 | S1   |        73.20
+ 2004 | S1   |        82.33
+ 2006 | S2   |        77.31
+(20 rows)
+
+
+Question 8:
+   zid    |      name
+----------+-----------------
+ z3255939 | Rosanna Hogarth
+ z3243616 | Virginia Glanz
+ z3256382 | Viara Alexova
+ z3218103 | Elaine Hon
+ z3253334 | Sarah Sridharan
+(5 rows)
+
+
+
+Question 9:
+ unswid  |      name
+---------+-----------------
+ 3275872 | Gavin Wylie
+ 3254031 | Hong Nguyen Van
+ 3209070 | Anthony Amos
+ 3232152 | Cosimo Mottey
+(4 rows)
+
+
+
+Question 10:
+   unswid   |            longname             | num | rank
+------------+---------------------------------+-----+------
+ K-E27-C    | Biomedical Lecture Theatre C    | 260 |    1
+ K-E15-1027 | Macauley Theatre                | 208 |    2
+ K-G17-G24  | Electrical Engineering G24      | 195 |    3
+ K-E15-1027 | Macauley Theatre                | 195 |    3
+ K-F8-G23   | Law Theatre                     | 195 |    3
+ K-D23-303  | MathewsThC                      | 195 |    3
+ K-F8-G23   | Law Theatre                     | 195 |    3
+ K-E27-C    | Biomedical Lecture Theatre C    | 195 |    3
+ K-F8-G04   | Law Th G04                      | 195 |    3
+ K-G17-G25  | Electrical Engineering G25      | 156 |   10
+ K-M15-G90  | Myers Thtr                      | 156 |   10
+ K-D23-203  | MathewsThB                      | 156 |   10
+ K-D23-203  | MathewsThB                      | 156 |   10
+ K-G17-G25  | Electrical Engineering G25      | 156 |   10
+ K-E27-B    | Biomedical Lecture Theatre B    | 156 |   10
+ K-M15-G90  | Myers Thtr                      | 156 |   10
+ K-E19-103  | Central Lecture Block Theatre 6 | 156 |   10
+ K-E27-B    | Biomedical Lecture Theatre B    | 156 |   10
+ K-F8-G02   | Law Th G02                      | 156 |   10
+ K-G17-G24  | Electrical Engineering G24      | 156 |   10
+ K-E27-F    | Biomedical Lecture Theatre F    | 156 |   10
+ K-E27-B    | Biomedical Lecture Theatre B    | 156 |   10
+ K-E27-D    | Biomedical Lecture Theatre D    | 156 |   10
+ K-E15-1027 | Macauley Theatre                | 156 |   10
+ K-E27-A    | Biomedical Lecture Theatre A    | 156 |   10
+ K-M15-G90  | Myers Thtr                      | 156 |   10
+ K-F8-G02   | Law Th G02                      | 156 |   10
+ K-E19-103  | Central Lecture Block Theatre 6 | 156 |   10
+ K-E19-103  | Central Lecture Block Theatre 6 | 130 |   29
+ K-F8-G23   | Law Theatre                     | 130 |   29
+ K-F8-G02   | Law Th G02                      | 130 |   29
+ K-F8-G02   | Law Th G02                      | 130 |   29
+ K-E19-105  | Central Lecture Block Theatre 8 | 130 |   29
+ K-M15-G90  | Myers Thtr                      | 130 |   29
+ K-F8-G04   | Law Th G04                      | 130 |   29
+ K-F8-G02   | Law Th G02                      | 130 |   29
+ K-E27-E    | Biomedical Lecture Theatre E    | 130 |   29
+ K-M15-G90  | Myers Thtr                      | 130 |   29
+ K-F8-G02   | Law Th G02                      | 130 |   29
+ K-F8-G02   | Law Th G02                      | 130 |   29
+ K-E15-1027 | Macauley Theatre                | 130 |   29
+ K-D23-203  | MathewsThB                      | 130 |   29
+ K-J14-G5   | Keith Burrows Theatre           | 130 |   29
+ K-E19-103  | Central Lecture Block Theatre 6 | 130 |   29
+ K-F8-G23   | Law Theatre                     | 130 |   29
+ K-M15-G90  | Myers Thtr                      | 130 |   29
+ Z-32-LT07  | LecThN07                        | 130 |   29
+ K-F8-G02   | Law Th G02                      | 130 |   29
+ K-M15-G90  | Myers Thtr                      | 130 |   29
+ K-D23-201  | MathewsThA                      | 130 |   29
+ K-G17-G24  | Electrical Engineering G24      | 130 |   29
+ K-F8-G23   | Law Theatre                     | 130 |   29
+ K-F8-G04   | Law Th G04                      | 130 |   29
+ K-G17-G25  | Electrical Engineering G25      | 130 |   29
+ K-F8-G02   | Law Th G02                      | 130 |   29
+ K-E27-D    | Biomedical Lecture Theatre D    | 130 |   29
+ K-E27-E    | Biomedical Lecture Theatre E    | 130 |   29
+ K-E15-1027 | Macauley Theatre                | 130 |   29
+ Z-32-LT10  | LecThN10                        | 130 |   29
+ K-M15-G90  | Myers Thtr                      | 130 |   29
+ K-F23-303  | Matthews Theatre C              | 130 |   29
+ Z-32-LT07  | LecThN07                        | 130 |   29
+ K-E19-103  | Central Lecture Block Theatre 6 | 130 |   29
+ K-G17-G25  | Electrical Engineering G25      | 130 |   29
+ K-J14-G5   | Keith Burrows Theatre           | 130 |   29
+ K-F8-G02   | Law Th G02                      | 130 |   29
+ Z-32-LT10  | LecThN10                        | 130 |   29
+ K-E19-104  | Central Lecture Block Theatre 7 | 130 |   29
+ K-D23-304  | MathewsThD                      | 117 |   69
+ K-D23-203  | MathewsThB                      | 117 |   69
+ K-D23-304  | MathewsThD                      | 117 |   69
+ K-F8-G23   | Law Theatre                     | 117 |   69
+ K-D23-304  | MathewsThD                      | 117 |   69
+ K-F8-G02   | Law Th G02                      | 117 |   69
+ K-F8-G02   | Law Th G02                      | 117 |   69
+
+.......
+
+ K-J14-G5   | Keith Burrows Theatre           |  13 |  677
+ K-J14-G5   | Keith Burrows Theatre           |  13 |  677
+ K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
+ K-F23-303  | Matthews Theatre C              |  13 |  677
+ K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
+ K-F13-G09  | Science Th                      |  13 |  677
+ K-J14-G5   | Keith Burrows Theatre           |  13 |  677
+ K-E27-A    | Biomedical Lecture Theatre A    |  13 |  677
+ K-F8-G23   | Law Theatre                     |  13 |  677
+ K-E27-D    | Biomedical Lecture Theatre D    |  13 |  677
+ Z-32-LT10  | LecThN10                        |  13 |  677
+ K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
+ K-F8-G23   | Law Theatre                     |  13 |  677
+ K-E15-1027 | Macauley Theatre                |  13 |  677
+ Z-32-LT07  | LecThN07                        |  13 |  677
+ K-D23-203  | MathewsThB                      |  13 |  677
+ K-D23-304  | MathewsThD                      |  13 |  677
+ K-F8-G02   | Law Th G02                      |  13 |  677
+ K-E15-1027 | Macauley Theatre                |  13 |  677
+ K-J14-G5   | Keith Burrows Theatre           |  13 |  677
+ K-D23-203  | MathewsThB                      |  13 |  677
+ K-E19-103  | Central Lecture Block Theatre 6 |  13 |  677
+ K-E27-A    | Biomedical Lecture Theatre A    |  13 |  677
+ K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
+ Z-32-LT07  | LecThN07                        |  13 |  677
+ K-E27-A    | Biomedical Lecture Theatre A    |  13 |  677
+ K-D23-201  | MathewsThA                      |  13 |  677
+ K-D23-201  | MathewsThA                      |  13 |  677
+ K-M15-G90  | Myers Thtr                      |  13 |  677
+ K-D23-303  | MathewsThC                      |  13 |  677
+ K-C24-G17  | Sir John Clancy Auditorium      |  13 |  677
+ K-J14-G5   | Keith Burrows Theatre           |  13 |  677
+ K-F13-G09  | Science Th                      |  13 |  677
+ K-F8-G23   | Law Theatre                     |  13 |  677
+ K-E19-103  | Central Lecture Block Theatre 6 |  13 |  677
+ K-D23-201  | MathewsThA                      |  13 |  677
+ K-J14-G5   | Keith Burrows Theatre           |  13 |  677
+ K-D23-304  | MathewsThD                      |  13 |  677
+ K-E15-1027 | Macauley Theatre                |  13 |  677
+ K-E19-105  | Central Lecture Block Theatre 8 |  13 |  677
+ K-E15-1027 | Macauley Theatre                |  13 |  677
+ K-J14-G5   | Keith Burrows Theatre           |  13 |  677
+ K-J14-G5   | Keith Burrows Theatre           |  13 |  677
+ K-D23-303  | MathewsThC                      |  13 |  677
+ K-E19-103  | Central Lecture Block Theatre 6 |  13 |  677
+ K-F23-303  | Matthews Theatre C              |  13 |  677
+ Z-32-LT10  | LecThN10                        |  13 |  677
+ K-E27-A    | Biomedical Lecture Theatre A    |  13 |  677
+ K-D23-201  | MathewsThA                      |  13 |  677
+ K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
+ K-M15-G90  | Myers Thtr                      |  13 |  677
+ K-M15-G90  | Myers Thtr                      |  13 |  677
+ K-E27-F    | Biomedical Lecture Theatre F    |  13 |  677
+ K-M15-G90  | Myers Thtr                      |  13 |  677
+ K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
+ Z-32-LT07  | LecThN07                        |  13 |  677
+ K-E27-C    | Biomedical Lecture Theatre C    |  13 |  677
+ K-C24-G17  | Sir John Clancy Auditorium      |  13 |  677
+ K-E19-103  | Central Lecture Block Theatre 6 |  13 |  677
+ K-M15-G90  | Myers Thtr                      |  13 |  677
+ K-E27-C    | Biomedical Lecture Theatre C    |  13 |  677
+ K-J14-G5   | Keith Burrows Theatre           |  13 |  677
+ K-M15-G90  | Myers Thtr                      |  13 |  677
+ K-D23-201  | MathewsThA                      |  13 |  677
+ Z-32-LT07  | LecThN07                        |  13 |  677
+ K-D23-201  | MathewsThA                      |  13 |  677
+ K-C24-G17  | Sir John Clancy Auditorium      |  13 |  677
+ K-G17-G24  | Electrical Engineering G24      |  13 |  677
+ K-E19-103  | Central Lecture Block Theatre 6 |  13 |  677
+ K-E19-104  | Central Lecture Block Theatre 7 |   0 |  776
+ K-E27-B    | Biomedical Lecture Theatre B    |   0 |  776
+ K-E19-104  | Central Lecture Block Theatre 7 |   0 |  776
+ K-E27-B    | Biomedical Lecture Theatre B    |   0 |  776
+ K-E19-104  | Central Lecture Block Theatre 7 |   0 |  776
+ K-E27-B    | Biomedical Lecture Theatre B    |   0 |  776
+(781 rows)
+
+
+
