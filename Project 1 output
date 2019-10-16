@@ -133,7 +133,7 @@ Question 3:
 Question 4:
  num_student
 -------------
-        4941
+       11135
 (1 row)
 
 
@@ -235,162 +235,65 @@ Question 9:
 
 
 Question 10:
+left join All_calsses                                                                                                                                                              on All_calsses.room_id = All_theatre.room_id                                                                                                                                       ;
+CREATE VIEW
    unswid   |            longname             | num | rank
 ------------+---------------------------------+-----+------
- K-E27-C    | Biomedical Lecture Theatre C    | 260 |    1
- K-E15-1027 | Macauley Theatre                | 208 |    2
- K-G17-G24  | Electrical Engineering G24      | 195 |    3
- K-E15-1027 | Macauley Theatre                | 195 |    3
- K-F8-G23   | Law Theatre                     | 195 |    3
- K-D23-303  | MathewsThC                      | 195 |    3
- K-F8-G23   | Law Theatre                     | 195 |    3
- K-E27-C    | Biomedical Lecture Theatre C    | 195 |    3
- K-F8-G04   | Law Th G04                      | 195 |    3
- K-G17-G25  | Electrical Engineering G25      | 156 |   10
- K-M15-G90  | Myers Thtr                      | 156 |   10
- K-D23-203  | MathewsThB                      | 156 |   10
- K-D23-203  | MathewsThB                      | 156 |   10
- K-G17-G25  | Electrical Engineering G25      | 156 |   10
- K-E27-B    | Biomedical Lecture Theatre B    | 156 |   10
- K-M15-G90  | Myers Thtr                      | 156 |   10
- K-E19-103  | Central Lecture Block Theatre 6 | 156 |   10
- K-E27-B    | Biomedical Lecture Theatre B    | 156 |   10
- K-F8-G02   | Law Th G02                      | 156 |   10
- K-G17-G24  | Electrical Engineering G24      | 156 |   10
- K-E27-F    | Biomedical Lecture Theatre F    | 156 |   10
- K-E27-B    | Biomedical Lecture Theatre B    | 156 |   10
- K-E27-D    | Biomedical Lecture Theatre D    | 156 |   10
- K-E15-1027 | Macauley Theatre                | 156 |   10
- K-E27-A    | Biomedical Lecture Theatre A    | 156 |   10
- K-M15-G90  | Myers Thtr                      | 156 |   10
- K-F8-G02   | Law Th G02                      | 156 |   10
- K-E19-103  | Central Lecture Block Theatre 6 | 156 |   10
- K-E19-103  | Central Lecture Block Theatre 6 | 130 |   29
- K-F8-G23   | Law Theatre                     | 130 |   29
- K-F8-G02   | Law Th G02                      | 130 |   29
- K-F8-G02   | Law Th G02                      | 130 |   29
- K-E19-105  | Central Lecture Block Theatre 8 | 130 |   29
- K-M15-G90  | Myers Thtr                      | 130 |   29
- K-F8-G04   | Law Th G04                      | 130 |   29
- K-F8-G02   | Law Th G02                      | 130 |   29
- K-E27-E    | Biomedical Lecture Theatre E    | 130 |   29
- K-M15-G90  | Myers Thtr                      | 130 |   29
- K-F8-G02   | Law Th G02                      | 130 |   29
- K-F8-G02   | Law Th G02                      | 130 |   29
- K-E15-1027 | Macauley Theatre                | 130 |   29
- K-D23-203  | MathewsThB                      | 130 |   29
- K-J14-G5   | Keith Burrows Theatre           | 130 |   29
- K-E19-103  | Central Lecture Block Theatre 6 | 130 |   29
- K-F8-G23   | Law Theatre                     | 130 |   29
- K-M15-G90  | Myers Thtr                      | 130 |   29
- Z-32-LT07  | LecThN07                        | 130 |   29
- K-F8-G02   | Law Th G02                      | 130 |   29
- K-M15-G90  | Myers Thtr                      | 130 |   29
- K-D23-201  | MathewsThA                      | 130 |   29
- K-G17-G24  | Electrical Engineering G24      | 130 |   29
- K-F8-G23   | Law Theatre                     | 130 |   29
- K-F8-G04   | Law Th G04                      | 130 |   29
- K-G17-G25  | Electrical Engineering G25      | 130 |   29
- K-F8-G02   | Law Th G02                      | 130 |   29
- K-E27-D    | Biomedical Lecture Theatre D    | 130 |   29
- K-E27-E    | Biomedical Lecture Theatre E    | 130 |   29
- K-E15-1027 | Macauley Theatre                | 130 |   29
- Z-32-LT10  | LecThN10                        | 130 |   29
- K-M15-G90  | Myers Thtr                      | 130 |   29
- K-F23-303  | Matthews Theatre C              | 130 |   29
- Z-32-LT07  | LecThN07                        | 130 |   29
- K-E19-103  | Central Lecture Block Theatre 6 | 130 |   29
- K-G17-G25  | Electrical Engineering G25      | 130 |   29
- K-J14-G5   | Keith Burrows Theatre           | 130 |   29
- K-F8-G02   | Law Th G02                      | 130 |   29
- Z-32-LT10  | LecThN10                        | 130 |   29
- K-E19-104  | Central Lecture Block Theatre 7 | 130 |   29
- K-D23-304  | MathewsThD                      | 117 |   69
- K-D23-203  | MathewsThB                      | 117 |   69
- K-D23-304  | MathewsThD                      | 117 |   69
- K-F8-G23   | Law Theatre                     | 117 |   69
- K-D23-304  | MathewsThD                      | 117 |   69
- K-F8-G02   | Law Th G02                      | 117 |   69
- K-F8-G02   | Law Th G02                      | 117 |   69
-
-.......
-
- K-J14-G5   | Keith Burrows Theatre           |  13 |  677
- K-J14-G5   | Keith Burrows Theatre           |  13 |  677
- K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
- K-F23-303  | Matthews Theatre C              |  13 |  677
- K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
- K-F13-G09  | Science Th                      |  13 |  677
- K-J14-G5   | Keith Burrows Theatre           |  13 |  677
- K-E27-A    | Biomedical Lecture Theatre A    |  13 |  677
- K-F8-G23   | Law Theatre                     |  13 |  677
- K-E27-D    | Biomedical Lecture Theatre D    |  13 |  677
- Z-32-LT10  | LecThN10                        |  13 |  677
- K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
- K-F8-G23   | Law Theatre                     |  13 |  677
- K-E15-1027 | Macauley Theatre                |  13 |  677
- Z-32-LT07  | LecThN07                        |  13 |  677
- K-D23-203  | MathewsThB                      |  13 |  677
- K-D23-304  | MathewsThD                      |  13 |  677
- K-F8-G02   | Law Th G02                      |  13 |  677
- K-E15-1027 | Macauley Theatre                |  13 |  677
- K-J14-G5   | Keith Burrows Theatre           |  13 |  677
- K-D23-203  | MathewsThB                      |  13 |  677
- K-E19-103  | Central Lecture Block Theatre 6 |  13 |  677
- K-E27-A    | Biomedical Lecture Theatre A    |  13 |  677
- K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
- Z-32-LT07  | LecThN07                        |  13 |  677
- K-E27-A    | Biomedical Lecture Theatre A    |  13 |  677
- K-D23-201  | MathewsThA                      |  13 |  677
- K-D23-201  | MathewsThA                      |  13 |  677
- K-M15-G90  | Myers Thtr                      |  13 |  677
- K-D23-303  | MathewsThC                      |  13 |  677
- K-C24-G17  | Sir John Clancy Auditorium      |  13 |  677
- K-J14-G5   | Keith Burrows Theatre           |  13 |  677
- K-F13-G09  | Science Th                      |  13 |  677
- K-F8-G23   | Law Theatre                     |  13 |  677
- K-E19-103  | Central Lecture Block Theatre 6 |  13 |  677
- K-D23-201  | MathewsThA                      |  13 |  677
- K-J14-G5   | Keith Burrows Theatre           |  13 |  677
- K-D23-304  | MathewsThD                      |  13 |  677
- K-E15-1027 | Macauley Theatre                |  13 |  677
- K-E19-105  | Central Lecture Block Theatre 8 |  13 |  677
- K-E15-1027 | Macauley Theatre                |  13 |  677
- K-J14-G5   | Keith Burrows Theatre           |  13 |  677
- K-J14-G5   | Keith Burrows Theatre           |  13 |  677
- K-D23-303  | MathewsThC                      |  13 |  677
- K-E19-103  | Central Lecture Block Theatre 6 |  13 |  677
- K-F23-303  | Matthews Theatre C              |  13 |  677
- Z-32-LT10  | LecThN10                        |  13 |  677
- K-E27-A    | Biomedical Lecture Theatre A    |  13 |  677
- K-D23-201  | MathewsThA                      |  13 |  677
- K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
- K-M15-G90  | Myers Thtr                      |  13 |  677
- K-M15-G90  | Myers Thtr                      |  13 |  677
- K-E27-F    | Biomedical Lecture Theatre F    |  13 |  677
- K-M15-G90  | Myers Thtr                      |  13 |  677
- K-E19-104  | Central Lecture Block Theatre 7 |  13 |  677
- Z-32-LT07  | LecThN07                        |  13 |  677
- K-E27-C    | Biomedical Lecture Theatre C    |  13 |  677
- K-C24-G17  | Sir John Clancy Auditorium      |  13 |  677
- K-E19-103  | Central Lecture Block Theatre 6 |  13 |  677
- K-M15-G90  | Myers Thtr                      |  13 |  677
- K-E27-C    | Biomedical Lecture Theatre C    |  13 |  677
- K-J14-G5   | Keith Burrows Theatre           |  13 |  677
- K-M15-G90  | Myers Thtr                      |  13 |  677
- K-D23-201  | MathewsThA                      |  13 |  677
- Z-32-LT07  | LecThN07                        |  13 |  677
- K-D23-201  | MathewsThA                      |  13 |  677
- K-C24-G17  | Sir John Clancy Auditorium      |  13 |  677
- K-G17-G24  | Electrical Engineering G24      |  13 |  677
- K-E19-103  | Central Lecture Block Theatre 6 |  13 |  677
- K-E19-104  | Central Lecture Block Theatre 7 |   0 |  776
- K-E27-B    | Biomedical Lecture Theatre B    |   0 |  776
- K-E19-104  | Central Lecture Block Theatre 7 |   0 |  776
- K-E27-B    | Biomedical Lecture Theatre B    |   0 |  776
- K-E19-104  | Central Lecture Block Theatre 7 |   0 |  776
- K-E27-B    | Biomedical Lecture Theatre B    |   0 |  776
-(781 rows)
+ K-J14-G5   | Keith Burrows Theatre           | 102 |    1
+ K-D23-201  | MathewsThA                      |  99 |    2
+ K-E27-F    | Biomedical Lecture Theatre F    |  48 |    3
+ K-D23-304  | MathewsThD                      |  47 |    4
+ K-F8-G04   | Law Th G04                      |  47 |    4
+ K-E19-104  | Central Lecture Block Theatre 7 |  46 |    6
+ K-M15-G90  | Myers Thtr                      |  44 |    7
+ K-F8-G02   | Law Th G02                      |  40 |    8
+ K-E19-105  | Central Lecture Block Theatre 8 |  34 |    9
+ K-E27-A    | Biomedical Lecture Theatre A    |  33 |   10
+ K-E27-D    | Biomedical Lecture Theatre D    |  33 |   10
+ K-E15-1027 | Macauley Theatre                |  31 |   12
+ K-D23-203  | MathewsThB                      |  30 |   13
+ K-F8-G23   | Law Theatre                     |  29 |   14
+ K-E19-103  | Central Lecture Block Theatre 6 |  28 |   15
+ K-G17-G25  | Electrical Engineering G25      |  27 |   16
+ Z-32-LT07  | LecThN07                        |  26 |   17
+ K-D23-303  | MathewsThC                      |  24 |   18
+ K-E27-C    | Biomedical Lecture Theatre C    |  22 |   19
+ K-G17-G24  | Electrical Engineering G24      |  21 |   20
+ K-C24-G17  | Sir John Clancy Auditorium      |  20 |   21
+ K-E27-B    | Biomedical Lecture Theatre B    |  19 |   22
+ K-D9-THTR  | IoMyers Th                      |  18 |   23
+ K-F23-303  | Matthews Theatre C              |  18 |   23
+ K-E27-E    | Biomedical Lecture Theatre E    |  16 |   25
+ K-F13-G09  | Science Th                      |  16 |   25
+ Z-32-LT10  | LecThN10                        |  13 |   27
+ Z-32-LT05  | LecThN05                        |   9 |   28
+ K-F23-203  | Matthews Theatre B              |   3 |   29
+ K-E12-125  | SmithTh                         |   0 |   30
+ K-E12-127  | New South Global Theatre        |   0 |   30
+ K-E12-227  | NyholmTh                        |   0 |   30
+ K-E12-229  | MellorTh                        |   0 |   30
+ K-E19-G2   | Central Lecture Block Theatre 1 |   0 |   30
+ K-E19-G3   | Central Lecture Block Theatre 2 |   0 |   30
+ K-E19-G4   | Central Lecture Block Theatre 3 |   0 |   30
+ K-E19-G5   | Central Lecture Block Theatre 4 |   0 |   30
+ K-E19-G6   | Central Lecture Block Theatre 5 |   0 |   30
+ K-F10-L1   | Chemical Sciences Theatre       |   0 |   30
+ K-F23-201  | Matthews Theatre A              |   0 |   30
+ K-F23-304  | Matthews Theatre D              |   0 |   30
+ K-G14-A    | Webster Theatre A               |   0 |   30
+ K-G14-B    | Webster Theatre B               |   0 |   30
+ K-G15-190  | Webst ThA                       |   0 |   30
+ K-G15-290  | Webst ThB                       |   0 |   30
+ K-G17-LG1  | Rex Vowels Theatre              |   0 |   30
+ K-G19-RT   | Ritchie Th                      |   0 |   30
+ K-K14-19   | PhysicsTh                       |   0 |   30
+ K-M15-1001 | Myers Thtr                      |   0 |   30
+ Z-03-MTH   | MilitaryTh                      |   0 |   30
+ Z-30-LT04  | LecThS04                        |   0 |   30
+ Z-30-LT05  | LecThS05                        |   0 |   30
+ Z-32-LT04  | LecThN04                        |   0 |   30
+ Z-F9-THTR  | ATSOCTh                         |   0 |   30
+(54 rows)
 
 
 
